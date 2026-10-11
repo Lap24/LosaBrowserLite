@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Losa Browser.exe" version="1.0.0.4" publicKeyToken="b4372c974ff35975" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Losa Browser" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Losa Browser.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Losa Browser.exe" size="489456">
+      <assemblyIdentity name="Losa Browser" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AizbKRerUcYY0RTfB88RM2y3eYAU1Gl6hI0WuabQohE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Core.dll" size="603712">
+      <assemblyIdentity name="Microsoft.Web.WebView2.Core" version="1.0.2903.40" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iKO2L0UiWoEc24Xfbf2Vwr/5oOQ+OwT4E7El6spWzJ8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.WinForms.dll" size="38488">
+      <assemblyIdentity name="Microsoft.Web.WebView2.WinForms" version="1.0.2903.40" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KfyVTD/eF0mBfRWPPdXr6e/Ts86XCNhgkvsenwI6HLA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Wpf.dll" size="83008">
+      <assemblyIdentity name="Microsoft.Web.WebView2.Wpf" version="1.0.2903.40" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HFtseSkW0WgJPvm4NvM+gY0tFdDIHwhktc3f+X2RMxk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Losa Browser.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-arm64\native\WebView2Loader.dll" size="139856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y1Ya5FN+Obul3Yrx9kjxidlWKxAD/REKnoiazlJ/tOg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x64\native\WebView2Loader.dll" size="165968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ris2/Rvmyp91Y0ZqieV8Qe9KTe8+CoT6iF0gOupKOq8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x86\native\WebView2Loader.dll" size="116288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b1mtV4/eH2XES2k12rCQHwFLUmjgVrkw+zTAkZ8b9Lk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-UDNGGUC\lampros" issuerKeyHash="323ff69c3e9ed87ca727743da4d2070c80f188a9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lqihe6+aoWLvoXRcFIOEmGGRe8Bdo7A1WD+1CYPslHQ=</DigestValue></Reference></SignedInfo><SignatureValue>iSQXRYJbsRiIWgIW2UQX+sMZsTGlEL5FZEX26WTziC46wdbCnIEPCk72jznfXDqqRD9AJDhJLGicfvCT7cgeesSQk+ygH3l8JXrN5f9fR4XocrLTH6QBVAw+EqxQkYdIh1WKMf581QY2m9VXxC1W/rdDoWGXY76k1BKSVXZg5aQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6YRoIN+UHZALi7YV+WIkJAqzAOuszUIsac1F6KVgYNvERmqesgOwFgVZn+2UhjCRyUwfEltnl0I22n1k0CmzsfNOEKf7EaDstIuY/rT8zstNYN01qm5VCSoA6zEPOAEyRz2YDJECdkugOo75cKHQHuMxT2Xspl7cxlfBX756jv0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7494ec8309b53f5835b0a35dc07b9161988483145c74a1ef62a19aaf7ba1a896" Description="" Url=""><as:assemblyIdentity name="Losa Browser.exe" version="1.0.0.4" publicKeyToken="b4372c974ff35975" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-UDNGGUC\lampros</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>u5LqBjuPrqKt1/EcUFS0NDr9M8AjQvZGfNcjH9+zZPU=</DigestValue></Reference></SignedInfo><SignatureValue>ow4Np0EeID45/Jlb2vydLGmteHVq85LtE71zyaFrDm6D1Hf9d6+S1eYPFYoRhcElxNEtV6TxpC48v6XKAV51HOGYn9ofc0w4D8ZVwwuCSWc0omYnRtMzNeM7yokyeWFNzdrTPKL/mimuITXtSVIGH2LdbhlwzR8z50K0NvyfE9c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6YRoIN+UHZALi7YV+WIkJAqzAOuszUIsac1F6KVgYNvERmqesgOwFgVZn+2UhjCRyUwfEltnl0I22n1k0CmzsfNOEKf7EaDstIuY/rT8zstNYN01qm5VCSoA6zEPOAEyRz2YDJECdkugOo75cKHQHuMxT2Xspl7cxlfBX756jv0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQfBWh10mvN6VAJAz0waR1sDANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAFUARABOAEcARwBVAEMAXABsAGEAbQBwAHIAbwBzMB4XDTI2MTAxMDE5MzUwMloXDTI3MTAxMTAxMzUwMlowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBVAEQATgBHAEcAVQBDAFwAbABhAG0AcAByAG8AczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA6YRoIN+UHZALi7YV+WIkJAqzAOuszUIsac1F6KVgYNvERmqesgOwFgVZn+2UhjCRyUwfEltnl0I22n1k0CmzsfNOEKf7EaDstIuY/rT8zstNYN01qm5VCSoA6zEPOAEyRz2YDJECdkugOo75cKHQHuMxT2Xspl7cxlfBX756jv0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBDvlvL6+76uR8BvFZ7qOzaCm8fZsGNIR79WU+xaMngp1e4XU5Xs7lYAaBWcL1QnryrREzF+QfJEOKJBWv9E8N7g8Zg0LIevsKi3vL4t2QEiuF1r/tlFUGdC16qNkSKRDtu/GFCBV6inei4UfD/03YjYT6T0Fsc7sXkzxgDHyhNlg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
